@@ -1,3 +1,7 @@
+body{
+   display: contents;
+}
+
 .navbar{
     float: right;
     margin:20px;
@@ -17,4 +21,117 @@
 .main{
     text-align: center;
     margin-top: 150px;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+.input-box{
+    width : 584px;
+    height : 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left : 50px;
+    padding-right : 50px;
+}
+
+.search-icon{
+    position : relative;
+    left : 40px;
+    color : #9aa0a6;
+}
+.microphone-icon{
+    position : relative;
+    right : 40px;
+    color : #9aa0a6;
+}
+.button-area{
+    padding-top: 18px;
+}
+
+.button-style{
+    height : 36px;
+    margin : 6px;
+    background-color: #f8f9fa;
+    border : 1px solid #f8f9fa;
+    border-radius : 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 0 16px;
+}  
+.button-style:hover{
+    box-shadow: 0 1px 1px rgb(0,0,0 / 10%);
+    background-color: #f8f9fa;
+    border : 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+.root {
+    --link-color: #1a0dab;
+}
+
+.lang-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 28px;
+}
+
+.lang-list {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.lang-item {
+  color: blue;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.lang-item:hover {
+  text-decoration: underline;
+}
+
+.footer{
+    position : absolute;
+    bottom : 0px; 
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.first-line{
+    padding : 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.seceond-line{
+    padding : 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.seceond-line-seceond{
+    float: right;
+}
+
+.footer-locations {
+    text-align:left;
+}
+
+.footer-a-style{
+    text-decoration: none;
+    color: #70757a;
+    margin-right: 20px;
+    display : inline-block;
+}
+.footer-a-style:hover{
+    text-decoration: underline;
+    color : #202124;
 }
